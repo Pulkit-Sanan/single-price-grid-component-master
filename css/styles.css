@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* CUSTOM-CLASSES */
+.main {
+    width: 700px;
+    height: 540px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.padd{
+    padding: 40px;
+}
+ 
+.bold{
+    font-weight: 700;
+}
+
+/* CUSTOM_HEADINGS */
+.main-head{
+    color: hsl(179, 62%, 43%);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.sub-head{
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    color: white;
+}
+
+/* TOP */
+.top{
+    height: 45%;
+    background-color: white;
+    color: hsl(218, 22%, 67%);
+    line-height: 2rem;
+}
+
+.guarantee{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.3rem;
+}
+
+/* BOTTOM */
+.bottom{
+    height: 55%;
+    display: flex;
+    color: hsl(204, 43%, 93%);
+}
+
+/* PRICE */
+.price{
+    flex: 1;
+    background-color: hsl(179, 62%, 43%);}
+
+.price-tag{
+    display: flex;
+    align-items: center;
+}
+
+.dollar{
+    font-size: 2rem;
+}
+
+.pm{
+    color: hsl(179, 47%, 52%);
+}
+
+.sign-up{
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+/* WHY */
+.why{
+    flex: 1;
+    background-color: hsl(179, 47%, 52%);
+}

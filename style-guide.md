@@ -12,11 +12,19 @@ The designs were created to the following widths:
 ### Primary
 
 - Cyan: hsl(179, 62%, 43%)
+<!-- price -->
+
+hsl(179, 47%, 52%)
+<!-- why -->
+
 - Bright Yellow: hsl(71, 73%, 54%)
+<!-- button -->
 
 ### Neutral
 
 - Light Gray: hsl(204, 43%, 93%)
+<!-- background -->
+
 - Grayish Blue: hsl(218, 22%, 67%)
 
 ## Typography
