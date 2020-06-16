@@ -26,66 +26,67 @@ body {
     overflow: hidden;
 }
 
-.padd{
+.padd {
     padding: 40px;
 }
- 
-.bold{
+
+.bold {
     font-weight: 700;
 }
 
 /* CUSTOM_HEADINGS */
-.main-head{
+.main-head {
     color: hsl(179, 62%, 43%);
     font-size: 2rem;
     margin-bottom: 15px;
 }
 
-.sub-head{
+.sub-head {
     font-size: 1.2rem;
     margin-bottom: 0px;
     color: white;
 }
 
 /* TOP */
-.top{
+.top {
     height: 45%;
     background-color: white;
     color: hsl(218, 22%, 67%);
     line-height: 2rem;
 }
 
-.guarantee{
+.guarantee {
     color: hsl(71, 73%, 54%);
     font-size: 1.3rem;
 }
 
 /* BOTTOM */
-.bottom{
+.bottom {
     height: 55%;
     display: flex;
     color: hsl(204, 43%, 93%);
 }
 
 /* PRICE */
-.price{
+.price {
     flex: 1;
-    background-color: hsl(179, 62%, 43%);}
+    background-color: hsl(179, 62%, 43%);
+}
 
-.price-tag{
+.price-tag {
     display: flex;
     align-items: center;
 }
 
-.dollar{
+.dollar {
     font-size: 2rem;
 }
 
-.pm{
+.pm {
     color: hsl(179, 47%, 52%);
 }
 
-.sign-up{
+.sign-up {
     background-color: hsl(71, 73%, 54%);
     padding: 10px 0;
     width: 100%;
@@ -95,7 +96,30 @@ body {
 }
 
 /* WHY */
-.why{
+.why {
     flex: 1;
     background-color: hsl(179, 47%, 52%);
+}
+
+@media(max-width : 768px) {
+
+    .back {
+        flex-wrap: wrap;
+    }
+
+    .main {
+        width: 90%;
+        height: max-content;
+        margin: 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top, .bottom, .price, .why{
+        width: 100%;
+    }
+
+    .bottom{
+        display: block;
+    }
 }
